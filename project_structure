@@ -1,0 +1,21 @@
+qia/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── core/
+│   │   │   ├── __init__.py
+│   │   │   ├── config.py
+│   │   │   └── security.py
+│   │   ├── api/
+│   │   │   ├── __init__.py
+│   │   │   └── v1/
+│   │   ├── services/
+│   │   │   ├── ai_engine.py
+│   │   │   ├── voice_processor.py
+│   │   │   └── task_executor.py
+│   │   └── models/
+│   └── requirements.txt
+├── frontend/
+│   └── qia_app/
+└── README.md 
